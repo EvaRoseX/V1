@@ -1,2 +1,32 @@
 #!/usr/bin/env python3
-import base64,zlib;exec(zlib.decompress(base64.b64decode("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")))
+import yt_dlp
+import asyncio
+
+async def get_download_link(url):
+    """Direct yt-dlp ka use karke download link nikalne ka function"""
+    ydl_opts = {
+        'format': 'best',
+        'quiet': True,
+        'no_warnings': True,
+        'http_headers': {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+        },
+        'nocheckcertificate': True,
+    }
+    
+    try:
+        # Loop running event mein yt-dlp ko safely run karne ke liye
+        loop = asyncio.get_event_loop()
+        with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+            info = await loop.run_in_executor(None, lambda: ydl.extract_info(url, download=False))
+            
+            # Agar direct video url mil jaye
+            if 'url' in info:
+                return info['url']
+            # Agar playlist ya multiple formats hon
+            elif 'entries' in info:
+                return info['entries'][0]['url']
+    except Exception as e:
+        print(f"yt-dlp Error: {e}")
+        
+    return None
