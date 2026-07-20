@@ -3,8 +3,12 @@ import yt_dlp
 import asyncio
 
 class APIDownloader:
-    @staticmethod
-    async def get_download_link(url):
+    def __init__(self, *args, **kwargs):
+        """Agar bot is class ko initialize karte waqt koi bhi arguments bhejta hai, 
+        toh yeh unhe accept kar lega aur crash nahi hoga."""
+        pass
+
+    async def get_download_link(self, url, *args, **kwargs):
         """Direct yt-dlp ka use karke download link nikalne ka function"""
         ydl_opts = {
             'format': 'best',
@@ -31,5 +35,6 @@ class APIDownloader:
         return None
 
 # Backward compatibility ke liye (agar bot bina class ke direct call kar raha ho)
-async def get_download_link(url):
-    return await APIDownloader.get_download_link(url)
+async def get_download_link(url, *args, **kwargs):
+    downloader = APIDownloader()
+    return await downloader.get_download_link(url)
