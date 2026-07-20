@@ -9,14 +9,14 @@
 # 🔑 BOT TOKEN (Required)
 # Get from @BotFather on Telegram
 # ───────────────────────────────────────────────────────────────
-BOT_TOKEN = "8793308380:AAFnbwXup0CtYVMf8oj-ZicW6r6ONUgaAmw"
+BOT_TOKEN = "8262263812:AAGRegbTDQTBIAnY670-1HgqFnc3BuR8Nqc"
 
 # ───────────────────────────────────────────────────────────────
 # 🏷️ DEPLOYER INFO (Your details - shown in "Bot Owner" button)
 # This is displayed separately from the original creator
 # ───────────────────────────────────────────────────────────────
-DEPLOYER_NAME = "Your Name"  # Your name or bot instance name
-DEPLOYER_USERNAME = "@YourUsername"  # Your Telegram username
+DEPLOYER_NAME = "Godz"  # Your name or bot instance name
+DEPLOYER_USERNAME = "@BYGOD_HELPER"  # Your Telegram username
 
 # ───────────────────────────────────────────────────────────────
 # 🔐 DEPLOYER SUDO USERS (Your admin IDs)
@@ -24,7 +24,7 @@ DEPLOYER_USERNAME = "@YourUsername"  # Your Telegram username
 # Add YOUR sudo user IDs here (comma-separated)
 # Format: [YOUR_ID_1, YOUR_ID_2, ...]
 # ───────────────────────────────────────────────────────────────
-DEPLOYER_SUDO_USERS = []  # Add your IDs: [123456789, 987654321]
+DEPLOYER_SUDO_USERS = [7562079827]  # Add your IDs: [123456789, 987654321]
 
 # ───────────────────────────────────────────────────────────────
 # 📢 DEPLOYER FORCE JOIN CHANNELS (Your channels)
@@ -34,14 +34,14 @@ DEPLOYER_SUDO_USERS = []  # Add your IDs: [123456789, 987654321]
 # Format: ["@yourchannel1", "@yourchannel2", ...]
 # Leave empty [] if you don't want additional force join
 # ───────────────────────────────────────────────────────────────
-DEPLOYER_CHANNELS = []  # Add your channels: ["@yourchannel"]
+DEPLOYER_CHANNELS = [@ownergodupdate]  # Add your channels: ["@yourchannel"]
 
 # ───────────────────────────────────────────────────────────────
 # 💬 DEPLOYER SUPPORT & UPDATE LINKS (Your links)
 # These are shown alongside owner's links
 # ───────────────────────────────────────────────────────────────
-SUPPORT_CHANNEL = "https://t.me/YourSupportGroup"  # Your support
-UPDATE_CHANNEL = "https://t.me/YourUpdatesChannel"  # Your updates
+SUPPORT_CHANNEL = "https://t.me/ownergodupdate"  # Your support
+UPDATE_CHANNEL = "https://t.me/ownergodupdate"  # Your updates
 
 # ───────────────────────────────────────────────────────────────
 # 🎨 BOT SETTINGS
