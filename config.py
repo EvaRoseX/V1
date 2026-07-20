@@ -34,7 +34,7 @@ DEPLOYER_SUDO_USERS = [7562079827]  # Add your IDs: [123456789, 987654321]
 # Format: ["@yourchannel1", "@yourchannel2", ...]
 # Leave empty [] if you don't want additional force join
 # ───────────────────────────────────────────────────────────────
-DEPLOYER_CHANNELS = [@ownergodupdate]  # Add your channels: ["@yourchannel"]
+DEPLOYER_CHANNELS = ["@ownergodupdate"]  # Add your channels: ["@yourchannel"]
 
 # ───────────────────────────────────────────────────────────────
 # 💬 DEPLOYER SUPPORT & UPDATE LINKS (Your links)
